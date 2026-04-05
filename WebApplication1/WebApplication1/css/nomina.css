@@ -1,0 +1,30 @@
+.nomina-form {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nomina-form h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .nomina-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  .nomina-form th, .nomina-form td {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+  }
